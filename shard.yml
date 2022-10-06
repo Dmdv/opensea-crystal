@@ -1,0 +1,19 @@
+name: opensea
+version: 0.1.0
+
+authors:
+  - DmitryD <dima.dyachkov@gmail.com>
+
+targets:
+  opensea:
+    main: src/opensea.cr
+
+crystal: 1.5.0
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+  cache:
+    github: crystal-cache/cache
+
+license: MIT
