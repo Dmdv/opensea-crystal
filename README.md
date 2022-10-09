@@ -32,4 +32,7 @@ https://github.com/Dmdv/opensea-netcore
 
 And `.NETCORE` showed results almost as twice faster compared to `Crystal`
 
+1 run = netcore  
+2 run = Crystal  
+
 <img width="1248" alt="image" src="https://user-images.githubusercontent.com/805238/194770454-eac0aa3f-a08d-460a-80e2-fbf74c697a66.png">
