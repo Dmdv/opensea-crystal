@@ -1,4 +1,5 @@
 require "./spec_helper"
+require "../src/opensea"
 
 describe Opensea do
   # TODO: Write tests
