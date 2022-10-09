@@ -10,7 +10,6 @@ headers = HTTP::Headers{"X-API-KEY" => ENV["API-KEY"]}
 opensea_client = HTTP::Client.new(uri)
 start_time = Time.utc
 
-Log.info {"Run time: "+start_time}
 Log.info {"API-KEY = "+ENV["API-KEY"]}
 
 # You can easily access the context and set content_type like 'application/json'.
