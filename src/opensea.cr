@@ -6,7 +6,7 @@ require "cache"
 cache = Cache::MemoryStore(String, String).new(expires_in: 10.minute)
 
 uri = URI.parse("https://api.opensea.io/api/v1/asset")
-headers = HTTP::Headers{"X-API-KEY" => "YOUR-CODE-HERE"}
+headers = HTTP::Headers{"X-API-KEY" => ENV["API-KEY"]}
 opensea_client = HTTP::Client.new(uri)
 start_time = Time.utc
 
