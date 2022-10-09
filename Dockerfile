@@ -1,4 +1,4 @@
-FROM crystallang/crystal:latest as builder
+FROM crystallang/crystal:1.5.0 as builder
 WORKDIR /app
 
 # RUN apt-get update -qq && apt-get install -y --no-install-recommends libpq-dev libsqlite3-dev libmysqlclient-dev libreadline-dev git curl vim netcat
